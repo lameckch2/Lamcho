@@ -1,0 +1,21 @@
+#mamaDiv{
+	background-color: red;
+	padding: 2em;
+
+	display: grid;
+	grid-template-columns: 32% 32% 32%;
+	grid-gap: 2em;
+}
+
+.child{
+	background-color: blue;
+}
+
+.child img{
+	width: 100%;
+}
+
+.child p{
+	text-align: justify;
+	padding: 15px;
+}
